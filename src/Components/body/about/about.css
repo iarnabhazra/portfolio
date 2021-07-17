@@ -51,4 +51,8 @@
     .about__top-info span{
         font-size: 26px;
     }
+
+    .social__icon{
+        height: 32px;
+    }
 }
