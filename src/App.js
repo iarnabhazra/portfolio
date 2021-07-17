@@ -1,10 +1,10 @@
-
+import Home from './Components/home/home'
 import './App.css';
 
 function App() {
   return (
     <div>
-      
+      <Home />
     </div>
   );
 }

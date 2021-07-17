@@ -1,0 +1,37 @@
+.mobile{
+    display: flex;
+    position: absolute;
+    height: 100vw;
+    width: 40vw;
+    background-color: white;
+    right: 0px;
+    top: -6px;
+    padding: 18px 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile__close{
+    display: flex;
+    justify-content: flex-end;
+    padding: 18px 12px;
+}
+
+.mobile__option{
+    
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding-top: 24px;
+    justify-content: center;
+    /* align-items: center */
+    height: 100%;
+    
+}
+
+.mobile__option a{
+    display: flex;
+    text-decoration: none;
+    margin-left: 40%;
+    color: black
+}
