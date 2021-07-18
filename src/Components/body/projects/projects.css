@@ -1,0 +1,22 @@
+.projects{
+    margin: 20px 0;
+}
+
+.section__title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+
+.project__cards{
+    display: flex;
+    flex-wrap:  wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.project__card{
+    /* width: 40%; */
+    margin: 20px;
+}

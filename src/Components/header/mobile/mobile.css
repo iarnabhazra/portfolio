@@ -1,21 +1,23 @@
 .mobile{
     display: flex;
     position: absolute;
-    height: 100vh;
+    height: 99vh;
     width: 40vw;
     background-color: white;
     right: 0px;
-    top: -6px;
+    top: 4px;
     padding-left: 12px;
     padding-right: 12px;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    background-image: radial-gradient(circle, #736d6c, #78716e, #7c746f, #7f7971, #817d73, #878479, #8e8a80, #949186, #a19b91, #ada69d, #b9b1aa, #c5bcb6);
 }
 
 .mobile__close{
     display: flex;
     justify-content: flex-end;
-    padding-top: 33px;
+    padding-top: 27px;
     padding-right: 12px;
 }
 
@@ -34,6 +36,7 @@
 .mobile__option a{
     display: flex;
     text-decoration: none;
-    margin-left: 30%;
-    color: black
+    margin-left: 10%;
+    color: black;
+    font-size: 24px;
 }

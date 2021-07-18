@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+html{
+    background-image: radial-gradient(circle, #23d762, #60dd6e, #84e37d, #a0e88c, #b9ee9e, #baf2aa, #bbf6b5, #bef9c0, #aafac9, #93fbd4, #7bfbe2, #5ffbf1);
+    scroll-behavior: smooth;
+    
+}
+
+*{
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Dancing Script', cursive;
+}
+
 .home{
-    width: 70%;
+    width: 90%;
     margin: auto;
     display:flex;
     flex-direction: column;
